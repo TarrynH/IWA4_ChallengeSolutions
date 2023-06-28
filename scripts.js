@@ -9,10 +9,10 @@ if (year = 2050) {
 	console.log("April", 'Freedom Day')
 	count = count + 4
 
-	if (status) {
+	if (status === 'student') {
 	    console.log('June', 'Youth Day')
 		count = count + 1
-    } else {count = count}
+    } 
 
 	console.log('August', 'Women’s Day')
 	console.log('September', 'Heritage Day')
@@ -20,10 +20,10 @@ if (year = 2050) {
 	console.log("December", 'Day of Reconciliation')
 	count = count + 3
 
-	if (!status) {
+	if (status === 'parent') {
 	    console.log("December", 'Christmas Day')
 		count = count + 1
-    } else { count = count}
+    } 
 
 	console.log("December", 'Day of Goodwill')
 	count = count + 1
